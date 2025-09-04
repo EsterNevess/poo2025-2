@@ -1,0 +1,16 @@
+package exemplos;
+
+public class TesteConta {
+
+	public static void main(String[] args) {
+		//Criar um novo objeto - instância
+		Conta conta1 = new Conta();
+		conta1.numero = 123;
+		conta1.titular = "Adriano";
+		conta1.saldo = 1000.;
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package exercicios;
+
+public class Exercicio1 {
+
+    public static void main(String[] args) {
+        int contadorPar = 0;
+        int contadorImpar = 0;
+
+        for (int i = 0; i <= 30; i++) {
+            if (i % 2 == 0) {
+                contadorPar++;
+            } else {
+                contadorImpar++;
+            }
+        }
+
+        System.out.println("Quantidade de números pares: " + contadorPar);
+        System.out.println("Quantidade de números ímpares: " + contadorImpar);
+    }
+}

@@ -1,0 +1,17 @@
+package exemplos;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		 int contadorMultiplos = 0;
+
+	        for (int i = 1; i <= 22; i++) {
+	            if (i % 2 == 0) {
+	                System.out.println("Java");
+	                contadorMultiplos++;
+	            }
+	        }
+
+	        System.out.println("Total de múltiplos de 2 encontrados: " + contadorMultiplos);
+	    }
+	}

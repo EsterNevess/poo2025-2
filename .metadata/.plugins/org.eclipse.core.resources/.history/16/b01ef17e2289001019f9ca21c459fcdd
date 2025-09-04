@@ -1,0 +1,15 @@
+package exemplos;
+
+public class TestePessoa {
+
+	public static void main(String[] args) {
+		Pessoa pessoa = new Pessoa();
+		//atribuição direta para o atributo
+		pessoa.nome = "Ana";
+		pessoa.altura = 1.75;
+		pessoa.peso = 80.5;
+		
+		System.out.println("Resultado IMC:" + pessoa.resultado());
+	}
+
+}

@@ -1,0 +1,12 @@
+package exemplos;
+
+public class Exemplo2Switch {
+
+	public static void main(String[] args) {
+		String cidade = "Fortaleza";
+		
+		String resultado = switch(cidade)
+
+	}
+
+}

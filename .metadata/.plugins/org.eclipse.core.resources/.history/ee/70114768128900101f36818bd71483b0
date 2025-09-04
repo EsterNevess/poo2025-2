@@ -1,0 +1,15 @@
+package exemplos;
+
+public class Conta {
+	//Atributos
+	int numero;
+	String titular;
+	double saldo;
+	
+	//Comportamentos da classe - Métodos
+	
+	//método sem retorno
+	public void deposito(double valor) {
+		saldo = saldo + valor;
+	}
+}

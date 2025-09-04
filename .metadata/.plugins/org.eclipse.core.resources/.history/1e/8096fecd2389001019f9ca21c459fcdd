@@ -1,0 +1,33 @@
+package exemplos;
+
+public class Pessoa {
+	private String nome;
+	private double peso, altura;
+
+	//método para entrada de dados
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	//método para retorno do atributo
+	public String getNome() {
+		return nome;
+	}
+	
+	
+	
+	//Encapsulamento
+	private double calcularIMC() {
+		return peso / (altura * altura);
+	}
+
+	public String resultado() {
+		if (calcularIMC() < 18.5) {
+			return "Abaixo do Peso";
+		} else if (calcularIMC() <= 24.9) {
+			return "Peso ideal";
+		} else {
+			return "Acima do Peso";
+		}
+	}
+}
