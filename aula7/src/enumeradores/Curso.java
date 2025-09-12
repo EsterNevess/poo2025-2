@@ -2,8 +2,7 @@ package enumeradores;
 
 public class Curso {
 	private String nome;
-	private PeriodoCurso periodoCurso;		
-
+	private PeriodoCurso periodoCurso;
 
 	public Curso(String nome, PeriodoCurso periodoCurso) {
 		super();
@@ -32,4 +31,6 @@ public class Curso {
 		this.periodoCurso = periodoCurso;
 	}
 
+	
+	
 }

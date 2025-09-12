@@ -7,7 +7,7 @@ public class TesteCurso {
 		
 		System.out.println("Curso:"+ curso.getNome());
 		System.out.println("Dias:" + curso.getPeriodoCurso().getDiasSemana());
-		System.out.println("Carga Horária:"+ curso.getPeriodoCurso().getCargaHoraria());
+		System.out.println("Carga Horária:" + curso.getPeriodoCurso().getCargaHoraria());
 		System.out.println("Valor:"+ curso.getPeriodoCurso().getValor());
 	}
 
