@@ -1,23 +1,35 @@
 package revisao;
 
 public class Setor {
-    private String nomeSetor;
+	private int codigo;
+	private String descricao;
 
-    public Setor(String nomeSetor) {
-        this.nomeSetor = nomeSetor;
-    }
+	public Setor(int codigo, String descricao) {
+		this.codigo = codigo;
+		this.descricao = descricao;
+	}
 
-    @Override
-    public String toString() {
-        return nomeSetor;
-    }
+	@Override
+	public String toString() {
+		return "Setor [codigo=" + codigo + ", descricao=" + descricao + "]";
+	}
 
-    // Getter e Setter (opcionais, mas boas práticas)
-    public String getNomeSetor() {
-        return nomeSetor;
-    }
+	public int getCodigo() {
+		return codigo;
+	}
 
-    public void setNomeSetor(String nomeSetor) {
-        this.nomeSetor = nomeSetor;
-    }
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	
+	
 }

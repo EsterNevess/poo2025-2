@@ -1,7 +1,6 @@
 package interfaces;
 
 public class ContaCorrente implements Conta {
-
 	private String titular;
 	private double saldo;
 
@@ -31,25 +30,22 @@ public class ContaCorrente implements Conta {
 		this.saldo = saldo;
 	}
 
+	@Override
 	public double saque(double valor) {
 		if (saldo > valor) {
-		return saldo -= valor;	
+			return saldo -= valor;
 		}
 		return 0;
 	}
+
+	@Override
 	public double depositar(double valor) {
 		return saldo += valor;
 	}
 
 	@Override
 	public double transferir(double valor) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
-	@Override
-	public double pix(double valor) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 }

@@ -1,28 +1,31 @@
 package revisao;
 
 public class Assistente extends Empregado {
-    private double adicional;
+	private double adicional;
 
-    public Assistente(String nome, double salario, double adicional, Setor setor) {
-        super(nome, salario, setor);
-        this.adicional = adicional;
-    }
+	public Assistente(String nome, double salario, double adicional, Setor setor) {
+		super(nome, salario, setor);
+		this.adicional = adicional;
+	}
 
-    @Override
-    public String toString() {
-        return super.toString() + "adicional:" + adicional;
-    }
+	@Override
+	public String toString() {
+		return super.toString()+ "adicional:" + adicional;
+	}
 
-    public double getAdicional() {
-        return adicional;
-    }
+	public double getAdicional() {
+		return adicional;
+	}
 
-    public void setAdicional(double adicional) {
-        this.adicional = adicional;
-    }
+	public void setAdicional(double adicional) {
+		this.adicional = adicional;
+	}
 
-    @Override
-    public double calcularHoraExtra() {
-        return 0;
-    }
+	@Override
+	public double calcularHoraExtra() {
+		return 0;
+	}
+	
+	
+	
 }

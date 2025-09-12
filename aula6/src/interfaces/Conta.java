@@ -9,6 +9,5 @@ public interface Conta {
 	public double saque(double valor);
 	public double depositar(double valor);
 	public double transferir(double valor);
-	public double pix(double valor);
-
+	
 }
